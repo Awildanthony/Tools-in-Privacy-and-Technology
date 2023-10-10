@@ -1,0 +1,13 @@
+course_id,user_id,cc_by_ip,city,postalCode,LoE,YoB,gender,nforum_posts,nforum_votes,nforum_endorsed,nforum_threads,nforum_comments,nforum_pinned,nforum_events
+HarvardX/PH525.1x/1T2018,29940,US,Austin,78713,,,,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,37095,BD,Dhaka,,b,1991,m,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,45634,CO,Medellín,,m,1982,m,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,12345,PL,Warsaw,,m,1980,b,1,2,3,4,5,6,7
+HarvardX/PH525.1x/1T2018,37095,BD,Dhaka,,b,1991,m,0,0,0,0,0,0,1
+HarvardX/PH525.1x/1T2018,45634,CO,Medellín,,m,1982,m,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,29940,US,Austin,78713,,,,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,45634,CO,Medellín,,m,1982,m,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,12345,PL,Krakow,,f,1981,p,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,12345,PL,Warsaw,,m,1980,b,1,2,3,4,5,6,7
+HarvardX/PH525.1x/1T2018,29940,US,Austin,78713,,,,0,0,0,0,0,0,0
+HarvardX/PH525.1x/1T2018,37095,BD,Dhaka,,b,1991,m,0,0,0,0,0,0,0

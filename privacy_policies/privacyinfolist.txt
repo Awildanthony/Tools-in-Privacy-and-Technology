@@ -1,0 +1,84 @@
+
+Body: IRS
+URL: https://www.irs.gov/privacy-disclosure/irs-privacy-policy
+Non-Security Agency: Yes
+Security Agency: No
+Non-Security Company: No
+Security Company: No
+Word Count: 2959
+Sentence Count: 107
+Syllable Count: 5279
+Flesch Reading Ease: 26.44
+Flesch-Kincaid Grade Level: 16.5
+Gunning Fog Index: 14.47
+Automated Readability Index: 19.2
+Coleman-Liau Index: 15.21
+SMOG Index: 17.5
+
+
+Body: NSA
+URL: https://www.nsa.gov/privacy#:~:text=National%20Security%20Agency%2FCentral%20Security%20Service%20Web%20sites%20will%20disclose,on%20National%20Security%20Agency%2FCentral
+Non-Security Agency: No
+Security Agency: Yes
+Non-Security Company: No
+Security Company: No
+Word Count: 1310
+Sentence Count: 50
+Syllable Count: 2693
+Flesch Reading Ease: 2.58
+Flesch-Kincaid Grade Level: 19.4
+Gunning Fog Index: 13.99
+Automated Readability Index: 20.6
+Coleman-Liau Index: 17.76
+SMOG Index: 19.5
+
+
+Body: Google
+URL: https://policies.google.com/privacy?hl=en-US
+Non-Security Agency: No
+Security Agency: No
+Non-Security Company: Yes
+Security Company: No
+Word Count: 9013
+Sentence Count: 373
+Syllable Count: 15095
+Flesch Reading Ease: 38.45
+Flesch-Kincaid Grade Level: 13.9
+Gunning Fog Index: 11.96
+Automated Readability Index: 17.0
+Coleman-Liau Index: 14.63
+SMOG Index: 14.9
+
+
+Body: Cisco
+URL: https://www.cisco.com/c/en/us/about/trust-center/global-privacy-policy.html#purpose
+Non-Security Agency: No
+Security Agency: No
+Non-Security Company: No
+Security Company: Yes
+Word Count: 2296
+Sentence Count: 99
+Syllable Count: 4544
+Flesch Reading Ease: 14.09
+Flesch-Kincaid Grade Level: 17.1
+Gunning Fog Index: 13.58
+Automated Readability Index: 18.0
+Coleman-Liau Index: 16.31
+SMOG Index: 18.4
+
+
+Body: Harvard
+URL: https://internationaldataprivacy.harvard.edu/
+Non-Security Agency: No
+Security Agency: No
+Non-Security Company: No
+Security Company: No
+Word Count: 7194
+Sentence Count: 164
+Syllable Count: 13195
+Flesch Reading Ease: 10.0
+Flesch-Kincaid Grade Level: 22.8
+Gunning Fog Index: 19.76
+Automated Readability Index: 27.6
+Coleman-Liau Index: 15.97
+SMOG Index: 22.0
