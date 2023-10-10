@@ -46,5 +46,5 @@ def calculate_k_anonymity(input_file_path):
 
 
 if __name__ == "__main__":
-    input_file_path = 'rs_copy_of_sorted_reduced_qi_filled.csv'
+    input_file_path = 'reduced_qi_filled.csv'
     print(f"The k-anonymity value for the dataset is {calculate_k_anonymity(input_file_path)}.")
