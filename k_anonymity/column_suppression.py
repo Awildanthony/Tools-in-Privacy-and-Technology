@@ -6,7 +6,7 @@ iterating through all possible combinations until a minimum example achieves the
 import os
 import itertools
 import pandas as pd
-from tqdm import tqdm  # Import tqdm for progress bar
+from tqdm import tqdm
 from anonymity import calculate_k_anonymity
 
 
@@ -76,9 +76,9 @@ def suppress_columns(input_file_path, desired_k_anonymity, save_working_copy=Fal
 
 
 if __name__ == "__main__":
-    input_file_path = 'sorted_reduced_qi_filled.csv'
-    desired_k_anonymity = 5  # Change this to your desired k-anonymity
-    save_working_copy = True  # Set this to True to keep the working copy
+    input_file_path = 'sorted_reduced_qi_filled.csv'        # Ensure that you call `sort.py` on `reduced_qi_filled.csv` first!
+    desired_k_anonymity = 5                                 # Change this to your desired k-anonymity
+    save_working_copy = True                                # Set this to True to keep the working copy
     columns_deleted, deleted_columns = suppress_columns(input_file_path, desired_k_anonymity, save_working_copy)
     if columns_deleted > 0:
         print(f"Deleted {columns_deleted} columns: {', '.join(deleted_columns)}")

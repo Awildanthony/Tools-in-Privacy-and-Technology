@@ -6,7 +6,8 @@ minimum example achieves a desired k-anonymity.
 [Note: currently too slow for use in production]
 
 [Alternative Algorithm: determine which data columns have the most varied data and prioritize those,
-either generalizing one-by-one, or giving priority to those in cols-choose-n combinations first.]
+                        either generalizing one-by-one, or giving priority to those in cols-choose-n 
+                        combinations first.]
 """
 
 import os
@@ -80,7 +81,7 @@ def generalize_columns(input_file_path, desired_k_anonymity, save_working_copy=F
     # Define generalization rules
     generalization_rules = {
         'cc_by_ip': lambda x: map_country_to_continent(x),      # Map cc_by_ip to continent using pycountry_convert
-        'city': lambda x: map_city_to_country(x),     # Map city to country using geopy
+        'city': lambda x: map_city_to_country(x),               # Map city to country using geopy
         'postalCode': lambda x: str(x)[:3],                     # Truncate zip code to first 3 numbers
         'LoE': {
             'nan': 'Non-College',       # No input
@@ -167,9 +168,9 @@ def generalize_columns(input_file_path, desired_k_anonymity, save_working_copy=F
 
 
 if __name__ == "__main__":
-    input_file_path = 'sorted_test.csv'
-    desired_k_anonymity = 2  # Change this to your desired k-anonymity
-    save_working_copy = True  # Set this to True to keep the working copy
+    input_file_path = 'sorted_reduced_qi_filled.csv'        # Ensure that you call `sort.py` on `reduced_qi_filled.csv` first!
+    desired_k_anonymity = 5                                 # Change this to your desired k-anonymity
+    save_working_copy = True                                # Set this to True to keep the working copy
     columns_generalized, generalized_columns = generalize_columns(input_file_path, desired_k_anonymity, save_working_copy)
     if columns_generalized > 0:
         print(f"Deleted {columns_generalized} columns: {', '.join(generalized_columns)}")

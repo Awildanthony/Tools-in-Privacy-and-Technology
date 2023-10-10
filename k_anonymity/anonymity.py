@@ -1,5 +1,8 @@
 """
 Given a .csv file database, checks its k-anonymity.
+
+[Note: quasi-identifiers are assumed to be all columns except for `course_id` and `user_id`.
+       Entries that are empty are not up for consideration as duplicates. ]
 """
 
 import csv

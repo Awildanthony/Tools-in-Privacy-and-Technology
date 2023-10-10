@@ -7,7 +7,7 @@ import shutil
 import csv
 import os
 import pandas as pd
-from tqdm import tqdm  # Import tqdm for progress bar
+from tqdm import tqdm
 from anonymity import calculate_k_anonymity
 
 
@@ -77,8 +77,8 @@ def suppress_rows(input_file_path, desired_k_anonymity, n_deletions=1, save_work
 
 
 if __name__ == "__main__":
-    input_file_path = 'sorted_reduced_qi_filled.csv'
-    desired_k_anonymity = 5  # Change this to your desired k-anonymity
-    n_deletions = 500  # Number of deletions to perform before checking k-anonymity
-    save_working_copy = True  # Set this to True to keep the working copy
+    input_file_path = 'sorted_reduced_qi_filled.csv'    # Ensure that you call `sort.py` on `reduced_qi_filled.csv` first!
+    desired_k_anonymity = 5                             # Change this to your desired k-anonymity
+    n_deletions = 1000                                  # Number of deletions to perform before checking k-anonymity
+    save_working_copy = True                            # Set this to True to keep the working copy
     suppress_rows(input_file_path, desired_k_anonymity, n_deletions, save_working_copy)

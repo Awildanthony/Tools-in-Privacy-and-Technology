@@ -44,6 +44,6 @@ def sort_and_save_csv(input_file_path, output_file_path):
 
 
 if __name__ == "__main__":
-    input_file_path = 'rs_copy_of_sorted_reduced_qi_filled.csv'
+    input_file_path = 'reduced_qi_filled.csv'
     output_file_path = 'sorted_' + input_file_path
     sort_and_save_csv(input_file_path, output_file_path)
